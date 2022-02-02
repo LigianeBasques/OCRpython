@@ -1,0 +1,136 @@
+*body {
+    font-size: 12px;
+}
+.caixa-banner {
+    background-image:url(../img/computador.png) ;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    color: white;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-sobre {
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(204, 29, 204);
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.subtitulo1 {
+    font-size: 28px;
+    text-shadow: 2px 2px rgb(165, 163, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-sobre{
+    text-decoration:none;
+    font-size: 18px;
+    text-transform:uppercase ;
+    color: #af1e5a;
+    font-weight: bold;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 15px;
+
+}
+
+.link-portifolio{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:rgb(238, 231, 240);
+    background-color: rgb(104, 17, 131);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 5rem;
+}
+
+.caixa-sobre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.lado1{
+    width: 40%;
+    justify-content: space-between;
+}
+
+.lado1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align:justify;
+}
+
+.lado2{
+    width: 20%;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center ;
+    color: rgb(138, 20, 20);
+
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(62, 5, 73, 0.993);
+}
+
+.caixa-links{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.caixa-links p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.links{
+    background-color: rgb(153, 25, 212);
+    
+    width: 180px;
+    height: 180px;
+    text-align:center;
+    text-decoration:none ;
+    color:white;
+    border-radius: 2rem;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.rodape{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(246, 246, 252);
+    text-align: center;
+    background-color: rgb(255, 71, 178);
+    padding: 1rem;
+
+}
